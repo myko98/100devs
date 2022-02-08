@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+section,
+footer {
+  border: 3px solid black;
+}
+
+header,
+footer {
+  height: 50px;
+  clear: both;
+}
+
+section {
+  float: left;
+  height: 100px;
+  width: 33.33%;
+}
+
+@media screen and (max-width: 300px) {
+  section {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .a {
+    width: 50%;
+  }
+  .b {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background: blue;
+  }
+}

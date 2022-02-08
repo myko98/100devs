@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+header, footer, section {
+  border: 3px solid black
+}
+
+header, footer {
+  height: 100px;  
+  clear: both;
+}
+
+section {
+  height: 300px;
+  float: left
+}
+
+.one_fifth {
+  width: 20%
+}
+
+.two_fifth {
+  width: 40%
+}

@@ -1,0 +1,149 @@
+html {
+  font-size: 62.5%
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif
+}
+
+body {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  overflow: auto;
+}
+
+/* font size styles */
+h1 {
+  font-size: 4rem;
+}
+
+h2, li a {
+  font-size: 3rem;
+}
+
+p, a {
+  font-size: 1.5rem;
+  
+}
+
+p {
+  font-size: 1.75rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .1rem;
+  width: 90%;
+}
+
+.main_content-p {
+  padding: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+h1, h2 {
+  font-weight: 800;
+  font-family: 'Arimo', sans-serif;
+}
+
+h2 {
+  margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+
+
+aside {
+  margin-left: 3rem;
+}
+
+#logo {
+  width: 50%
+}
+nav {
+  width: 13%;
+  float: left;
+  position: fixed
+}
+
+nav * {
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem 0;
+}
+
+.main_content {
+  margin-left: 13%;
+  width: 87%;
+  float: left;
+}
+
+.main_content-img {
+  padding-top: 4rem;
+}
+
+header {
+  width: 45%;
+  float: left;
+}
+
+img {
+  width: 100%;
+}
+
+aside {
+  float: left;
+  max-width: 25%;
+  height: 100%;
+  padding-left: 3rem;
+}
+
+
+
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+
+/* making articles rows of 3 content */
+
+hr {
+  margin-bottom: 3rem;
+}
+.articles {
+  margin-left: 13%;
+  clear: both;
+  padding-top: 3rem;
+  width: 70%;
+}
+
+
+.articles section div{
+  float: left;
+  width: 33.33%
+}
+
+.articles section h2 {
+  margin: 0;
+}
+
+section.clearfix > section.clearfix {
+  margin-bottom: 1rem;
+}
+
+section.clearfix > section.clearfix > div:first-child {
+  width: 25%;
+  margin-right: 3rem;
+}
+
+section.clearfix > section.clearfix > div:nth-child(2) > p {
+  font-size: 1.75rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .1rem;
+  width: 90%;
+}
+
+section.clearfix > section.clearfix img {
+  padding-bottom: 2rem;
+}
+

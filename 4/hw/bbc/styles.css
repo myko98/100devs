@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav {
+  background: black;
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
+header::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.header_content {
+  width: 50%;
+  float: left;
+}
+
+.grid {
+  width: 50%;
+  float: left;
+}
+
+section section {
+  width: 33.33%;
+  float: left;
+}

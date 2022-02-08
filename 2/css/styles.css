@@ -1,0 +1,52 @@
+body {
+  background: rgb(134, 213, 240);
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px
+}
+
+p {
+
+  font-family: 'Times New Roman';
+}
+ul {
+  text-align: center;
+}
+section {
+  width: 550px;
+  margin: 30px auto;
+  border: 3px solid rgb(15, 212, 15);
+  padding: 30px 30px
+}
+
+img {
+  width: 30%;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 30px
+}
+
+
+span > a{
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid black
+}
+
+a {
+  color: rgb(15, 212, 15);
+  font-size: 14px;
+  border-right: 1px solid black;
+  padding: 0px 10px
+}
+
+ul > a:last-child {
+  border-right: none;
+}
+

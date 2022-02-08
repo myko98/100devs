@@ -1,0 +1,28 @@
+nav {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav img {
+  margin-left: 25%;
+  margin-right: 30%
+}
+
+header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+header > * {
+  float: left
+}
+
+header > img {
+  width: 40%;
+}
